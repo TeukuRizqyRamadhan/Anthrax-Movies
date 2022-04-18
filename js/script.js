@@ -100,6 +100,12 @@ $("#movie-list").on("click", ".see-detail", function () {
                         <li class="list-group-item">Actors : ` +
             movie.Actors +
             `</li>
+            <li class="list-group-item">Runtime : ` +
+            movie.Runtime +
+            `</li>
+            <li class="list-group-item">Country : ` +
+            movie.Country +
+            `</li>
                     </ul>
                     `
         );
